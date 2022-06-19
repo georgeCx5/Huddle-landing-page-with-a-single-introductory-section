@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+* {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+
+:root {
+     --violet: hsl(257, 40%, 49%);
+     --softMagenta: hsl(300, 69%, 71%);
+}
+
+body {
+     font-family: 'Open Sans', sans-serif;
+     font-family: 'Poppins', sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* height: 100vh; */
+     background-color: var(--violet);
+     background-image: url(./images/bg-mobile.svg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+
+.main{
+     height: 1600px;
+     width: 750px;
+}
+
+.image{
+     background-image: url(./images/illustration-mockups.svg);
+     height: 420px;
+     width: 600px;
+     background-repeat: no-repeat;
+     background-size:contain;
+}
+.description-first{
+     font-size: 45px;
+}
+.description-second{
+     font-size: 30px;
+}
+
+.description-first, .description-second{
+     color: #fff;
+}
+
+.register-btn a {
+     background-color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 80px;
+     width: 400px;
+     text-decoration: none;
+     border-radius: 3em;
+     color: var(--violet);
+}
+
+@media screen and (min-width: 2440px) {
+     body {
+          background-color: coral;
+     }
+}
+
+/* .attribution {
+     font-size: 11px;
+     text-align: center;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+} */
